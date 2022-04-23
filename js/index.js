@@ -35,16 +35,13 @@ const hacker2= "Wajahat"
 
 // 3.1
 const driverName= "Syed";
-let nameToUpperCase = driverName.toUpperCase();
-for(let i=0; i<1; i++){
-    console.log (`${nameToUpperCase}`);
-}
+let nameSepToUpperCase = driverName.toUpperCase().split('').join(' ');
 
 //3.2
 const driverName= "Syed";
-let nameToUpperCase = driverName.toUpperCase();
-for(let i=driverName.length; i>=0; i--){
-    console.log (`${driverName[i]}`);
+const reversedName = "";
+for(let i=driverName.length -1; i>0; i--){
+    reversedName += driverName[i]; 
 }
 
 //3.3 
@@ -62,8 +59,3 @@ function namesLexicalOrdered(name1, name2){
 
 namesLexicalOrdered("Syed","Wajahat");
 
-
-
-/* const driverName="Syed"
-const navigatorName="Wajahat"
-for(i=0; i<)
